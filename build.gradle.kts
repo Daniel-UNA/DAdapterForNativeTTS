@@ -12,10 +12,11 @@ repositories {
 
 publishing {
   publications {
-    withType<MavenPublication> {
+    create<MavenPublication>("mavenJava") {
+      from(components["java"])                // attach the Java artifact (jar)
       pom {
-        url.set("https://github.com/jonelo/jAdapterForNativeTTS")
         name.set("jAdapterForNativeTTS")
+        url.set("https://github.com/jonelo/jAdapterForNativeTTS")
         scm {
           url.set("https://github.com/jonelo/jAdapterForNativeTTS")
         }
