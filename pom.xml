@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.jonelo</groupId>
-    <artifactId>jadapter-for-native-tts</artifactId>
+    <groupId>io.github.DanielUNA</groupId>
+    <artifactId>Dadapter-for-native-tts</artifactId>
     <version>0.12.0</version>
     <packaging>jar</packaging>
 
@@ -28,14 +28,7 @@
         </license>
     </licenses>
 
-    <developers>
-        <developer>
-            <name>Johann N. Löfflmann</name>
-            <email>Johann@loefflmann.net</email>
-            <organization>Johann N. Löfflmann</organization>
-            <organizationUrl>https://johann.loefflmann.net</organizationUrl>
-        </developer>
-    </developers>
+    
 
     <scm>
         <connection>scm:git:git://github.com/Daniel-UNA/DAdapterForNativeTTS.git</connection>
