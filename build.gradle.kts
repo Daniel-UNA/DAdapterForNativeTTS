@@ -15,10 +15,10 @@ publishing {
     create<MavenPublication>("mavenJava") {
       from(components["java"])                // attach the Java artifact (jar)
       pom {
-        name.set("jAdapterForNativeTTS")
-        url.set("https://github.com/jonelo/jAdapterForNativeTTS")
+        name.set("DAdapterForNativeTTS")
+        url.set("https://github.com/Daniel-UNA/DAdapterForNativeTTS")
         scm {
-          url.set("https://github.com/jonelo/jAdapterForNativeTTS")
+          url.set("https://github.com/Daniel-UNA/DAdapterForNativeTTS")
         }
       }
     }
