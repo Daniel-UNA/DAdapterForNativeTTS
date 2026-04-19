@@ -15,11 +15,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <name>jAdapterForNativeTTS</name>
+    <name>DAdapterForNativeTTS</name>
     <description>A simple pure Java library that allows you to use the native
          Text To Speech engine provided by your operating system by using
          a ProcessBuilder without JNI. Microsoft Windows, GNU/Linux, and macOS are supported.</description>
-    <url>https://github.com/jonelo/jAdapterForNativeTTS</url>
+    <url>https://github.com/Daniel-UNA/DAdapterForNativeTTS</url>
 
     <licenses>
         <license>
@@ -38,9 +38,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/jonelo/jAdapterForNativeTTS.git</connection>
-        <developerConnection>scm:git:ssh://github.com:jonelo/jAdapterForNativeTTS.git</developerConnection>
-        <url>https://github.com/jonelo/jAdapterForNativeTTS.git</url>
+        <connection>scm:git:git://github.com/Daniel-UNA/DAdapterForNativeTTS.git</connection>
+        <developerConnection>scm:git:ssh://github.com/Daniel-UNA/DAdapterForNativeTTS.git</developerConnection>
+        <url>https://github.com/Daniel-UNA/DAdapterForNativeTTS.git</url>
     </scm>
 
     <build>
