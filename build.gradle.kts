@@ -23,4 +23,14 @@ publishing {
       }
     }
   }
+repositories {
+    maven {
+      name = "DAdapterForNativeTTS"
+      url = "https://github.com/Daniel-UNA/DAdapterForNativeTTS"
+      credentials {
+        username = System.getenv("GITHUB_ACTOR")
+        password = System.getenv("GITHUB_TOKEN")
+      }
+    }
+  }
 }
